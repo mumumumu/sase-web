@@ -1,0 +1,85 @@
+/* RESET ............................................... */ 
+body, div, dl, dt, dd, pre, form, fieldset, input, table, th, td, embed, object { margin: 0; padding: 0; } 
+:focus { outline: 0 } :link, :visited { text-decoration: none } 
+a img, :link img, :visited img { border: 0; cursor: pointer; } 
+table { border-collapse: collapse; border-spacing: 0; } 
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block } 
+input, select { vertical-align: middle } 
+
+/* NORMALIZE ........................................... */ 
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block } 
+audio, canvas, video { display: inline-block; display: inline; zoom: 1; } 
+audio:not([controls]) { display: none } 
+[hidden] { display: none } 
+html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; } 
+body, button, input, select, textarea { font-family: sans-serif } 
+abbr[title] { border-bottom: 1px dotted }
+blockquote { margin: 1em 40px } 
+mark { background: #ffffff; color: #555555; } 
+pre, code, kbd, samp { font-family: monospace, serif; _font-family: 'courier new', monospace; font-size: 1em; } 
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; } 
+q { quotes: none } q:before, q:after { content: ''; content: none; } 
+small { font-size: 75% } 
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; } 
+sup { top: -0.5em } 
+sub { bottom: -0.25em } 
+ul, ol { margin: 1em 0; padding: 0 0 0 40px; } 
+dd { margin: 0 0 0 40px } 
+nav ul, nav ol { list-style: none; list-style-image: none; } 
+img { border: 0; -ms-interpolation-mode: bicubic; } 
+svg:not(:root) { overflow: hidden } 
+figure { margin: 0 } 
+form { margin: 0 } 
+fieldset { border: 1px solid #c0c0c0; margin: 0 2px; padding: .35em .625em .75em; } 
+legend { border: 0; margin-left: -7px; } 
+button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; vertical-align: middle; } 
+button, input { line-height: normal } 
+button, input[type=button], input[type=reset], input[type=submit] { cursor: pointer; -webkit-appearance: button; overflow: visible; } 
+input[type=checkbox], input[type=radio] { box-sizing: border-box; padding: 0; } 
+input[type=search] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; } input[type=search]::-webkit-search-decoration { -webkit-appearance: none }
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; } 
+textarea { overflow: auto; vertical-align: top; } 
+table { border-collapse: collapse; border-spacing: 0; }
+p { margin:1em 0; }
+
+
+/* all ............. */
+.wrapper { 
+    background: #fff; 
+    overflow:hidden; 
+}
+
+/* aside ........... */
+aside { 
+    background:url(../img/logo-left.png) repeat-x; 
+    float:left; 
+    height:680px; 
+    width:40%; 
+    margin-top:200px;
+}
+.aside_content { 
+    float:right; 
+    height:680px; 
+    width:400px; 
+}
+.logo { 
+    background:url(../img/logo-bg.png) no-repeat; 
+    height:100px; 
+    margin-left: 100px;
+    width:400px; 
+}
+#sase { 
+    background: url(../img/logo-sase.png) no-repeat; 
+    display: block; 
+    height: 100px; 
+    text-indent: -40000px; 
+    width:280px; 
+}
+#cornell { 
+    background: url(../img/logo-cornell.png) no-repeat; 
+    display: block; 
+    height: 100px; 
+    text-indent: -40000px; 
+    width:445px; 
+}
+
