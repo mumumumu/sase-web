@@ -49,37 +49,36 @@ p { margin:1em 0; }
     overflow:hidden; 
 }
 
-/* aside ........... */
-aside { 
-    background:url(../img/logo-left.png) repeat-x; 
-    float:left; 
-    height:680px; 
-    width:40%; 
+/* logo ........... */
+.header-wrapper { 
     margin-top:200px;
 }
-.aside_content { 
-    float:right; 
-    height:680px; 
-    width:400px; 
+.logo-bg {
+    background:url(../img/logo-left.png) repeat-x; 
+    float:left;
+    height:100px; 
+    width:15%; 
 }
-.logo { 
+.logo-left { 
     background:url(../img/logo-bg.png) no-repeat; 
     height:100px; 
-    margin-left: 100px;
     width:400px; 
+    padding: 10px;
+    float:left;
+    display:inline;
 }
 #sase { 
     background: url(../img/logo-sase.png) no-repeat; 
-    display: block; 
-    height: 100px; 
+    height:75px; 
     text-indent: -40000px; 
     width:280px; 
+    float:left;
 }
 #cornell { 
     background: url(../img/logo-cornell.png) no-repeat; 
-    display: block; 
     height: 100px; 
     text-indent: -40000px; 
     width:445px; 
+    float:left;
 }
 
