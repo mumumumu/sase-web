@@ -51,17 +51,18 @@ p { margin:1em 0; }
 
 /* logo ........... */
 .header-wrapper { 
-    margin-top:200px;
+    margin-top:30px;
+    clear:both;
 }
 .logo-bg {
     background:url(../img/logo-left.png) repeat-x; 
     float:left;
     height:100px; 
-    width:15%; 
+    width:5%; 
 }
 .logo-left { 
     background:url(../img/logo-bg.png) no-repeat; 
-    height:100px; 
+    height:80px; 
     width:400px; 
     padding: 10px;
     float:left;
@@ -79,6 +80,42 @@ p { margin:1em 0; }
     height: 100px; 
     text-indent: -40000px; 
     width:445px; 
+    margin-top:5px;
     float:left;
 }
 
+.main-wrapper{
+    width: 800px;
+    overflow:auto;
+    margin-left:10%;
+}
+
+.navbar {
+    width:180px;
+    float:left;
+}
+nav { 
+    margin:40px 0px 0; 
+}
+nav ul { 
+    line-height: 1.45em; 
+    list-style:none; 
+    text-align:right; 
+    text-transform:uppercase; 
+}
+nav ul li { 
+    color:#d9d9d9; 
+    font: 26px 'NK498Regular', sans-serif; 
+    margin-bottom:0.3em; 
+}
+nav ul li a:link,nav ul li a:visited { 
+    color:#d9d9d9; 
+}
+nav ul li a:hover,nav ul li a:active { 
+    color:#da4245; 
+}
+nav ul li.current a:link,nav ul li.current a:visited, nav ul li.current a:hover,nav ul li.current a:active { color:#DA4245; }
+
+.content {
+    margin: 10px 10px 0 202px;
+}
