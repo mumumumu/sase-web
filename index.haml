@@ -1,0 +1,45 @@
+!!! 5
+%html
+  %head
+    %title SASE@Cornell
+    %meta(charset="utf-8")
+    %meta(http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1")
+    %link(rel="stylesheet" href="stylesheets/base.css")
+    %link(rel="stylesheet" href="stylesheets/skeleton.css")
+    %link(rel="stylesheet" href="stylesheets/layout.css")
+  %body
+    .container 
+      %header.sixteen.columns 
+        #logo sase  @ Cornell
+      %nav.four.columns
+        %ul
+          %li
+            %a(href="#about")='about'
+          %li
+            %a(href="#events")='events'
+          %li
+            %a(href="#join")='join us'
+          %li
+            %a(href="calendar")='calendar'
+          %li
+            %a(href="contact")='contact'
+          %li
+            %a(href="resources")='resources'
+      .content.twelve.columns
+        .scroll_hold
+          .scroll
+            .panel#about
+              about
+            .panel#events
+              events
+            .panel#join
+              join us
+            .panel#calendar
+              calendar
+            .panel#contact
+              contact
+            .panel#resources
+              resources
+
+
+
