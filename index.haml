@@ -10,36 +10,53 @@
   %body
     .container 
       %header.sixteen.columns 
-        #logo sase  @ Cornell
-      %nav.four.columns
-        %ul
-          %li
-            %a(href="#about")='about'
-          %li
-            %a(href="#events")='events'
-          %li
-            %a(href="#join")='join us'
-          %li
-            %a(href="calendar")='calendar'
-          %li
-            %a(href="contact")='contact'
-          %li
-            %a(href="resources")='resources'
-      .content.twelve.columns
-        .scroll_hold
-          .scroll
-            .panel#about
-              about
-            .panel#events
-              events
-            .panel#join
-              join us
-            .panel#calendar
-              calendar
-            .panel#contact
-              contact
-            .panel#resources
-              resources
+        .logo
+          %a(href="home")='home'
+      %aside.four.columns
+        %nav
+          %ul
+            %li.active
+              %a(href="#about")='about'
+            %li
+              %a(href="#events")='events'
+            %li
+              %a(href="#join")='join us'
+            %li
+              %a(href="#calendar")='calendar'
+            %li
+              %a(href="#contact")='contact'
+            %li
+              %a(href="#resources")='resources'
+            %li#fb
+              %a(href="http://www.facebook.com/groups/sasecornell/")
+      .content.eleven.columns
+        %section#top
+        %section#about
+          %header
+            %h2
+              WHO ARE WE?
+          %p
+            The Society of Asian Scientists and Engineers is a pre-professional organizaton with the following mission:
+            %ul
+              %li
+                Prepare Asian heritage scientists and engineers for <strong>success</strong> in the global business world
+              %li
+                Celebrate <strong>diversity </strong>on campus and in the workplace<br/> 
+              %li
+                Provide <strong>opportunities</strong> for members to make contributions to their local communities
+          %p 
+            The Cornell chapter of the Society of Asian Scientists and Engineers(SASE) was founded in 2009 to provide oppertunities and development to students of Asian heritage in the fields of Science and Engineering. Cornell SASE is a part of the growing SASE National network, which recently inducted its 30th chapter and boasts a membership total of over 1500 students.
+          %p
+            The organization provides professional development and networking oppertunites to further the experiences and career prospects of our members. Some past events SASE members has had the oppertunity to participate in are: Dinner with professors, resume critiques, national conferences and community service.
+          %p 
+            %strong
+              Note: our site is currently undergoing reconstruction so a lot of things are still missing, but feel free to visit our Facebook page to reach out to the eboard and other members.
+        %section#events
+        %section#join
+        %section#calendar
+        %section#contact
+        %section#resources
+
 
 
 
