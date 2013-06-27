@@ -1,0 +1,828 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"lig",
+				"lightReading"
+			],
+			[
+				"RIG",
+				"RIGHT_MOTION"
+			],
+			[
+				"qu",
+				"queryString"
+			],
+			[
+				"left",
+				"left"
+			],
+			[
+				"O",
+				"O"
+			],
+			[
+				"TT",
+				"TT"
+			],
+			[
+				"sensor",
+				"sensorReading"
+			],
+			[
+				"right",
+				"right_servo_speed"
+			],
+			[
+				"border",
+				"border-left"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"no",
+				"no-repeat  (value)"
+			],
+			[
+				"text",
+				"text-top"
+			],
+			[
+				"B",
+				"B"
+			],
+			[
+				"data",
+				"data_array_wen  (variable)"
+			],
+			[
+				"dirt",
+				"dirty_idx  (variable)"
+			],
+			[
+				"STREF",
+				"ST_REFILL_REQ  (variable)"
+			],
+			[
+				"current",
+				"current_way"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "class Date:\n\n	def __init__( self, date_string):\n\n\n	# if digit is greater than 2 digits long, then it must be the year\n\n	1/1/0 = 2000-01-01\n	1/1/1 = 2001-01-01\n\n	12/31/2999 = 2999-12-31\n\ncases (# digits)\n\n1/1/1\n1/1/2\n1/1/3\n1/1/4\n\n1/2/2\n1/2/3\n1/2/4\n\n2/2/2\n2/2/3te\nif A > 12 and B > 12 then year = min(A,B), day = max(A,B), month = C\nif A > 12 and C > 12 then year = min(A,C), day = max(A,C), month = B\nif B > 12 and C > 12 then year = min(B,C), day = max(B,C), month = A\n\nif month = 2 and not leap year then day <= 28, else day <= 29\nif month is odd then day <=31 else day <=30\n\n\n\nif A < 12 and B < 12 and C < 12 then year=min(a,b,c), month=2ndmin(a,b,c), day=max(a,b,c)\n",
+			"file": "/F/docs/spotify/best-before.py",
+			"file_size": 6,
+			"file_write_time": 129971796588952321,
+			"settings":
+			{
+				"buffer_size": 669,
+				"line_ending": "Windows",
+				"name": "class"
+			}
+		},
+		{
+			"file": "/E/Dropbox/lab4/lab4.c",
+			"settings":
+			{
+				"buffer_size": 6544,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/F/projects/FeelsBot/src/FeelsBot.c",
+			"settings":
+			{
+				"buffer_size": 3445,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Jeff/AppData/Local/Temp/scp52274/etc/config/network",
+			"settings":
+			{
+				"buffer_size": 280,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Jeff/AppData/Local/Temp/scp52392/etc/config/wireless",
+			"settings":
+			{
+				"buffer_size": 443,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/Downloads/FeelsBot(1)/FeelsBot/FeelsBot.h",
+			"settings":
+			{
+				"buffer_size": 764,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Jeff/AppData/Local/Temp/scp46195/www/feelsbot/style.css",
+			"settings":
+			{
+				"buffer_size": 927,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Jeff/AppData/Local/Temp/scp55388/www/feelsbot/script.js",
+			"settings":
+			{
+				"buffer_size": 4678,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Jeff/AppData/Local/Temp/scp21955/www/cgi-bin/serial.sh",
+			"settings":
+			{
+				"buffer_size": 192,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Jeff/AppData/Local/Temp/scp06741/www/cgi-bin/read.sh",
+			"settings":
+			{
+				"buffer_size": 89,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/F/projects/FeelsBot/src/FeelsBot.h",
+			"settings":
+			{
+				"buffer_size": 764,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/E/Downloads/FeelsBot(1)/FeelsBot/FeelsBot.c",
+			"settings":
+			{
+				"buffer_size": 9917,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pack inst",
+				"Package Control: Install Package"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"git commit hist",
+				"Git: Commit history"
+			],
+			[
+				"git diff",
+				"Git: Diff All"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"pack in",
+				"Package Control: Install Package"
+			],
+			[
+				"packa ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Packa insta",
+				"Package Control: Install Package"
+			],
+			[
+				"PAc",
+				"Package Control: Install Package"
+			],
+			[
+				"Pac",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Packa",
+				"Package Control: Install Package"
+			],
+			[
+				"HTML",
+				"Set Syntax: HTML"
+			],
+			[
+				"HAML",
+				"Set Syntax: Ruby Haml"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/Downloads/FeelsBot(1)/FeelsBot/FeelsBot.c",
+		"/C/Users/Jeff/AppData/Local/Temp/scp42592/www/feelsbot/index.html",
+		"/C/Users/Jeff/AppData/Local/Temp/scp09719/www/feelsbot/tweet.txt",
+		"/E/Downloads/FeelsBot(1)/FeelsBot/trtSettings.h",
+		"/C/Users/Jeff/AppData/Local/Temp/scp46195/www/feelsbot/style.css",
+		"/F/projects/sase-web/index.html",
+		"/F/projects/FeelsBot/www/feelsbot/script.js",
+		"/F/projects/FeelsBot/www/feelsbot/index.html",
+		"/F/projects/ABCs/Abc's/Abc's/LetterFormationViewController.m",
+		"/F/docs/LaTeX/resume-sp12.tex",
+		"/F/projects/sase-web/index.haml",
+		"/F/projects/sase-web/stylesheets/skeleton.css",
+		"/F/projects/sase-web/stylesheets/layout.css",
+		"/F/projects/sase-web/stylesheets/base.css",
+		"/F/projects/FeelsBot/www/feelsbot/style.css",
+		"/F/projects/cornell-cup/WebServer Code/Robot Controller/Robot Controller/CommFunctions.cs",
+		"/E/Downloads/cutex_2012-08-13 (1)/index.html",
+		"/F/projects/cornell-cup/GUI and Communications/GUI_Interface/GUIControl.cs",
+		"/F/projects/cornell-cup/GUI and Communications/Base_station_Combined/Program.cs",
+		"/F/projects/cornell-cup/WebServer Code/ModBotApp.Web/Robot Controller.sln",
+		"/F/projects/cornell-cup/WebServer Code/Robot Controller/Robot Controller/Default.aspx.cs",
+		"/F/projects/cornell-cup/GUI and Communications/GUI_Interface/Program.cs",
+		"/F/projects/cornell-cup/GUI and Communications/GUI_Interface/CommFunctions.cs",
+		"/F/projects/FeelsBot/src/FeelsBot.c",
+		"/E/Dropbox/lab4/uart.c",
+		"/E/Dropbox/lab4/uart.h",
+		"/F/projects/cornell-cup/WebServer Code/Robot Controller/Robot Controller/Communications_Functions.cs",
+		"/F/projects/sase-web/sass/screen.scss",
+		"/F/projects/sase-web/css/normalize.css",
+		"/C/Users/Jeff/AppData/Local/Temp/7zE6B02.tmp/index.html",
+		"/F/projects/sase-web/index2.html",
+		"/C/Users/Jeff/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/F/projects/atmega1284p/cricket-call/cricket-gen.c",
+		"/E/Dropbox/ece4450/hw5.txt",
+		"/C/Users/Jeff/AppData/Local/Temp/scp29692/home/student/jm776/ece4750/ece4750-lab3-mem/plab3_mem/SetAssocWriteBackCache.py",
+		"/F/docs/ece4750/lab3/dmapped_random-256",
+		"/F/docs/ece4750/lab3/set-assoc_random-256",
+		"/C/Users/Jeff/AppData/Local/Temp/scp37759/home/student/jm776/ece4750/ece4750-lab3-mem/plab3_mem/DirectMappedWriteBackCache.py",
+		"/C/Users/Jeff/AppData/Local/Temp/scp47917/home/student/jm776/ece4750/ece4750-lab3-mem/plab3_mem/SetAssocWriteBackCache_test.py",
+		"/C/Users/Jeff/AppData/Local/Temp/scp55260/home/student/jm776/ece4750/ece4750-lab3-mem/plab3_mem/DirectMappedWriteBackCache_test.py",
+		"/C/Users/Jeff/AppData/Local/Temp/scp55201/home/student/jm776/ece4750/ece4750-lab3-mem/plab3_mem/SetAssocWriteBackCache_test.py",
+		"/F/docs/ece4750/lab3/dmapped_loop-3d",
+		"/F/docs/ece4750/lab3/set-assoc_loop-3d",
+		"/F/docs/ece4750/lab3/set-assoc_loop-2d",
+		"/F/docs/ece4750/lab3/set-assoc_ustride-shared-256",
+		"/F/docs/ece4750/lab3/set-assoc_shared-256",
+		"/F/docs/ece4750/lab3/set-assoc_sstride-256-4",
+		"/F/docs/ece4750/lab3/set-assoc_sstride-256-2",
+		"/F/docs/ece4750/lab3/set-assoc_ustride-256",
+		"/F/docs/ece4750/lab3/dmapped_ustride-256",
+		"/F/docs/ece4750/lab3/dmapped_sstride-256-2",
+		"/F/docs/ece4750/lab3/dmapped_sstride-256-4",
+		"/F/docs/ece4750/lab3/dmapped_shared-256",
+		"/F/docs/ece4750/lab3/dmapped_ustride-shared-256",
+		"/F/docs/ece4750/lab3/dmapped_loop-2d",
+		"/E/Downloads/dhgamache-Skeleton-7ab6820.tar/dhgamache-Skeleton-7ab6820/dhgamache-Skeleton-7ab6820/stylesheets/base.css",
+		"/E/Downloads/dhgamache-Skeleton-7ab6820.tar/dhgamache-Skeleton-7ab6820/dhgamache-Skeleton-7ab6820/stylesheets/layout.css",
+		"/E/Downloads/dhgamache-Skeleton-7ab6820.tar/dhgamache-Skeleton-7ab6820/dhgamache-Skeleton-7ab6820/stylesheets/skeleton.css",
+		"/E/Downloads/dhgamache-Skeleton-7ab6820.tar/dhgamache-Skeleton-7ab6820/dhgamache-Skeleton-7ab6820/index.html",
+		"/F/docs/pitch.txt",
+		"/F/docs/sase-gbody3-presentation.txt",
+		"/F/projects/cornell-cup/Intel Cornell Cup 3.0/WebServer Code/Robot Controller/Robot Controller/Default.aspx",
+		"/F/projects/sase-web/sass/_base.scss",
+		"/F/projects/cornell-cup/Intel Cornell Cup 3.0/WebServer Code/Robot Controller/Robot Controller/Default.aspx.cs",
+		"/F/projects/cornell-cup/Intel Cornell Cup 3.0/GUI and Communications/Base_station_Combined/BaseModule.ice",
+		"/F/projects/cornell-cup/Intel Cornell Cup 3.0/GUI and Communications/Base_station_Combined/GlobalFunction.cs",
+		"/F/projects/cornell-cup/Intel Cornell Cup 3.0/GUI and Communications/minimal/Hello.ice",
+		"/F/projects/cornell-cup/Intel Cornell Cup 3.0/GUI and Communications/minimal/Blob.ice",
+		"/F/projects/cornell-cup/Intel Cornell Cup 3.0/WebServer Code/Robot Controller/Robot Controller/Default.aspx.designer.cs",
+		"/F/projects/playground/triangle.py",
+		"/F/projects/playground/next_palindrome.py",
+		"/F/projects/sase-web/css/main.css",
+		"/F/projects/sase-web/stylesheets/screen.css",
+		"/C/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss",
+		"/C/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/_reset.scss",
+		"/F/projects/sase-web/config.rb",
+		"/F/projects/sase-web/sase-web.sublime-project",
+		"/F/projects/sase-web/humans.txt",
+		"/C/Users/Jeff/AppData/Roaming/Sublime Text 2/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/F/projects/sase-web/sase-web.sublime-workspace",
+		"/C/Users/Jeff/Desktop/tmp.txt",
+		"/C/Users/Jeff/AppData/Roaming/Sublime Text 2/Packages/User/Side Bar.sublime-settings",
+		"/C/Ruby193/lib/ruby/gems/1.9.1/gems/haml-3.1.7/lib/haml.rb",
+		"/C/Users/Jeff/Desktop/portable_putty_062_050_all_in_one/putty.conf",
+		"/C/Users/Jeff/Desktop/portable_putty_062_050_all_in_one/PuTTY/ssh/ses/jm776@amdpool.ece.cornell.edu.session",
+		"/D/Windows Settings/PuTTY/ssh/ses/jm776@amdpool.ece.cornell.edu.session",
+		"/C/menu.lst"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"SerialSend",
+			"alert",
+			"ttyUSB0",
+			"servoCentre",
+			"mouseOriginX",
+			"mouseDown",
+			"mouseMove",
+			"getCoords",
+			"servoX",
+			"docMinSize",
+			"servoRangeMin",
+			"servoRange",
+			"servoCentre",
+			"lastCommandTime",
+			"servoPositions",
+			"servoPositionCenter",
+			"F",
+			"servoPositionCentre",
+			"sei",
+			"left_servo_speed",
+			"vision_tick",
+			"CCW",
+			"getSelectedRobot",
+			"dir",
+			"vision_tick",
+			"visiontimer_tick",
+			"visiontimer",
+			"addbot",
+			"HIT_COUNT_STR",
+			"192",
+			"InitializeComponent",
+			"startVisionToBaseClient",
+			"initializeSensorServer",
+			"resources",
+			"png",
+			"nav",
+			"WAY_0",
+			"current_way",
+			"normalize",
+			"html",
+			"format",
+			"14"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"servoPositionCenter",
+			"\n\n\nservoPositionCenter"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 11,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/F/docs/spotify/best-before.py",
+					"settings":
+					{
+						"buffer_size": 669,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								261,
+								261
+							]
+						],
+						"settings":
+						{
+							"auto_name": "class",
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/E/Dropbox/lab4/lab4.c",
+					"settings":
+					{
+						"buffer_size": 6544,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1433,
+								1434
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2562.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/F/projects/FeelsBot/src/FeelsBot.c",
+					"settings":
+					{
+						"buffer_size": 3445,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3445,
+								3445
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2088.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/Jeff/AppData/Local/Temp/scp52274/etc/config/network",
+					"settings":
+					{
+						"buffer_size": 280,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/Jeff/AppData/Local/Temp/scp52392/etc/config/wireless",
+					"settings":
+					{
+						"buffer_size": 443,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								386,
+								386
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/E/Downloads/FeelsBot(1)/FeelsBot/FeelsBot.h",
+					"settings":
+					{
+						"buffer_size": 764,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/Jeff/AppData/Local/Temp/scp46195/www/feelsbot/style.css",
+					"settings":
+					{
+						"buffer_size": 927,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								406,
+								406
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/Users/Jeff/AppData/Local/Temp/scp55388/www/feelsbot/script.js",
+					"settings":
+					{
+						"buffer_size": 4678,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3775,
+								3775
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2214.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/Users/Jeff/AppData/Local/Temp/scp21955/www/cgi-bin/serial.sh",
+					"settings":
+					{
+						"buffer_size": 192,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								191,
+								137
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/C/Users/Jeff/AppData/Local/Temp/scp06741/www/cgi-bin/read.sh",
+					"settings":
+					{
+						"buffer_size": 89,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								89,
+								89
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/F/projects/FeelsBot/src/FeelsBot.h",
+					"settings":
+					{
+						"buffer_size": 764,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								233,
+								233
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 216.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/E/Downloads/FeelsBot(1)/FeelsBot/FeelsBot.c",
+					"settings":
+					{
+						"buffer_size": 9917,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2971,
+								2971
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2056.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

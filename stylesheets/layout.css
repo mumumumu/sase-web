@@ -17,11 +17,17 @@
 /* #Site Styles
 ================================================== */
 
+	.container{
+		background-color:white;
+		border-bottom-left-radius:10px;
+		border-bottom-right-radius:10px;
+		padding-right:10px;
+	}
+
 	.logo {
 		background:url(../img/logo.png) no-repeat;
 		font-size: 100pt;
 		line-height: 110pt;
-		margin : 100px 0 0;
 		height:120px;
 		width: 960px;
 		border-bottom: solid 3px;
